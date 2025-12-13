@@ -1,0 +1,122 @@
+.reproductions {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-bottom: 70px;
+
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+
+        .textContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+
+            .title {
+                font-size: 40px;
+                color: #2C2D35;
+            }
+
+            .categories {
+                display: flex;
+                gap: 32px;
+                
+                .buttonCategories {
+                    font-size: 20px;
+                    padding: 10px 20px;
+                    background-color: #D4E8D9;
+                    color: #2C2D35;
+                    border: none;
+                    border-radius: 20px;
+                    border: 2px solid #D4E8D9;
+                    transition: all 500ms ease;
+
+                    &:hover {
+                        background-color: #598D66;
+                        color: #F4F6F5;
+                        cursor: pointer;
+                    }
+
+                    &:active {
+                        background-color: #376B44;
+                        color: #2C2D35;
+                        cursor: pointer;
+                    }
+
+                    &:focus:not(:active) {
+                        background-color: #D4E8D9;
+                        color: #2C2D35;
+                        border: 2px solid #376B44;
+                    }
+                }
+            }
+        }
+
+        .pictureGrid {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(3, 350px);
+            grid-template-rows: repeat(2, auto);
+            gap: 30px;
+
+            .pictureCard {
+                height: 730px;
+                background-color: #E1EDE6;
+                padding: 20px 20px;
+                
+                .picture {
+                    width: 310px;
+                    height: 422px;
+                    margin-bottom: 20px;
+                }
+
+                .author {
+                    font-size: 18px;
+                    color: #86928B;
+                    margin-bottom: 10px;
+                }
+
+                .title {
+                    font-size: 30px;
+                    color: #2C2D35;
+                    margin-bottom: 8px;
+                }
+
+                .materials {
+                    font-size: 18px;
+                    color: #2C2D35;
+                    margin-bottom: 30px;
+                }
+
+                .price {
+                    font-size: 24px;
+                    color: #598D66;
+                    margin-bottom: 20px;
+                }
+
+                .buttonBasket {
+                    background-color: transparent;
+                    font-size: 20px;
+                    color: #598D66;
+                    padding: 20px 0px;
+                    border-color: #598D66;
+                    border: 1px solid;
+                    width: 100%;
+                    margin-bottom: 30px;
+                    transition: all 500ms ease;
+
+                    &:hover {
+                        background-color: #598D66;
+                        color: #F4F6F5;
+                        transform: scale(0.99);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.footer {
+    padding: 22px 1rem 2rem; 
+    background-color: #E1EDE6;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1110px;
+        margin: 0 auto;
+        align-items: center;
+
+        .logoWithNumber {
+            .logo {
+                width: 143px;
+                height: 35px;
+                margin-bottom: 35px;
+            }
+
+            .number {
+                font-size: 18px;
+                color: #2C2D35;
+                margin-bottom: 8px;
+                cursor: pointer;
+                transition: all 200ms ease;
+
+                &:hover {
+                    color: #598D66;
+                }
+            }
+
+            .address {
+                font-size: 18px;
+                color: #86928B;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .columns {
+            display: flex;
+            gap: 60px;
+
+            .column {
+                .title {
+                    margin: 0;
+                    margin-bottom: 6px;
+                    padding: 0;
+                    font-size: 20px;
+                    color: #2C2D35;
+                }
+                
+                .nav {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 18px;
+                    color: #86928B;
+
+                    li {
+                        margin-bottom: 6px;
+                        cursor: pointer;
+                        transition: all 200ms ease;
+
+                        &:hover {
+                            color: #598D66;
+                        }
+                    }
+                }
+            }
+        }
+
+        .socialColumn {
+            margin-top: -24px;
+
+            .socialNetworks {
+                display: flex;
+                gap: 30px;
+
+                .imgNetworks {
+                    width: 24px;
+                    height: 24px;
+                    color:#2C2D35;
+                    cursor: pointer;
+                    transition: all 200ms ease;
+
+                    &:hover {
+                        color: #598D66;
+                    }
+                }
+            }
+
+            .copyright {
+                font-size: 12px;
+                color: #86928B;
+                line-height: 120%;
+
+                &:first-child {
+                    margin-bottom: 6px;
+                }
+            }
+        }
+    }
+}

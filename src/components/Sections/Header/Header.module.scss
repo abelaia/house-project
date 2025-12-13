@@ -1,0 +1,53 @@
+.header {
+    padding: 1rem 2rem; 
+    background-color: #E1EDE6;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+
+        .logo {
+            width: 24px;
+            height: 24px;
+        }
+
+        .nav {
+            display: flex;
+            list-style: none;
+            gap: 3rem;
+            color: #2C2D35;
+            align-items: center;
+            
+            .buttonBasket {
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                
+                img {
+                    width: 24px;
+                    height: 24px;
+                    border: none;
+                    outline: none;
+                    color: #2C2D35;
+
+                    &:hover {
+                        color: #598D66;
+                    }
+                }
+            }
+
+            li {
+                font-size: 20px;
+                
+                &:hover {
+                    color: #598D66;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
