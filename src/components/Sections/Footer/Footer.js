@@ -13,6 +13,7 @@ function Footer() {
                 <div className={styles.logoWithNumber}>
                     <img src={logo}
                          alt="Logo lnk.House"
+                         className={styles.logo}
                     />
                     <p className={styles.number}>+7 (999) 543-54-54</p>
                     <p className={styles.address}>Мастерская</p>

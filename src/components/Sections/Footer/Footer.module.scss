@@ -11,17 +11,26 @@
 
         .logoWithNumber {
             .logo {
-                width: 143px;
-                height: 35px;
+                font-size: 20px;
+                color: #598D66;
+                transition: 300ms ease;
+                padding: 12px 12px;
+                margin: 0px -12px;
                 margin-bottom: 35px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
 
             .number {
                 font-size: 18px;
                 color: #2C2D35;
-                margin-bottom: 8px;
                 cursor: pointer;
                 transition: all 200ms ease;
+                padding: 8px 12px;
+                margin: -8px -12px;
+                margin-bottom: 0px;
 
                 &:hover {
                     color: #598D66;
@@ -42,16 +51,14 @@
 
             .column {
                 .title {
-                    margin: 0;
-                    margin-bottom: 6px;
                     padding: 0;
                     font-size: 20px;
                     color: #2C2D35;
+                    margin-bottom: -12px;
                 }
                 
                 .nav {
                     list-style: none;
-                    margin: 0;
                     padding: 0;
                     font-size: 18px;
                     color: #86928B;
@@ -60,6 +67,8 @@
                         margin-bottom: 6px;
                         cursor: pointer;
                         transition: all 200ms ease;
+                        padding: 12px 12px;
+                        margin: -12px -12px;
 
                         &:hover {
                             color: #598D66;
@@ -79,6 +88,8 @@
                 .imgNetworks {
                     width: 24px;
                     height: 24px;
+                    padding: 12px 12px;
+                    margin: -12px -12px;
                     color:#2C2D35;
                     cursor: pointer;
                     transition: all 200ms ease;

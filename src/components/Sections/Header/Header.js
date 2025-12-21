@@ -10,6 +10,7 @@ function Header() {
             <div className={styles.container}>
                 <img src={logo}
                      alt="Logo lnk.House"
+                     className={styles.logo}
                 />
                 <ul className={styles.nav}>
                     <li>Репродукции</li>

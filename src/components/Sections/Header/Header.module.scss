@@ -10,8 +10,15 @@
         align-items: center;
 
         .logo {
-            width: 24px;
-            height: 24px;
+            font-size: 20px;
+            color: #598D66;
+            transition: 300ms ease;
+            padding: 12px 12px;
+            margin: 0px -12px;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         .nav {
@@ -20,12 +27,25 @@
             gap: 3rem;
             color: #2C2D35;
             align-items: center;
-            
+
+            li {
+                padding: 12px 12px;
+                margin: 0px -12px;
+                font-size: 20px;
+                
+                &:hover {
+                    color: #598D66;
+                    cursor: pointer;
+                }
+            }
+
             .buttonBasket {
                 background: transparent;
                 border: none;
                 cursor: pointer;
-                
+                padding: 12px 12px;
+                margin: 0px -12px;
+
                 img {
                     width: 24px;
                     height: 24px;
@@ -38,16 +58,6 @@
                     }
                 }
             }
-
-            li {
-                font-size: 20px;
-                
-                &:hover {
-                    color: #598D66;
-                    cursor: pointer;
-                }
-            }
-
         }
     }
 }
