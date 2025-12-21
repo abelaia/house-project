@@ -7,11 +7,11 @@ const star = process.env.PUBLIC_URL + '/assets/star.svg';
 function News() {
     return(
         <section className={styles.news}>
+            <img src={background}
+                 alt="Фон"
+                 className={styles.background}
+            />
             <div className={styles.container}> 
-                <img src={background}
-                     alt="Фон"
-                     className={styles.background}
-                />
                 <div className={styles.titleWithStar}>
                     <img src={star}
                          alt="Star"
