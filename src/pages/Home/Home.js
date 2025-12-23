@@ -7,16 +7,16 @@ import Footer from '../../components/Sections/Footer/Footer';
 import styles from './Home.module.scss';
 
 function Home() {
-  return (
-    <div className={styles.home}>
-      <Header />
-      <Hero />
-      <Reproductions />
-      <News />
-      <OurTeam />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className={styles.home}>
+            <Header />
+            <Hero />
+            <Reproductions />
+            <News />
+            <OurTeam />
+            <Footer />
+        </div>
+    );
 }
 
 export default Home;
