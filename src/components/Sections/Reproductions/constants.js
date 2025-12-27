@@ -6,7 +6,7 @@ export const pictures = [
         title: 'Охота Амура',
         materials: 'Холст, масло (50x80)',
         price: '14 500 руб',
-        image: '/assets/Франция/hunting.png'
+        image: '/assets/Франция/hunting.png',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const pictures = [
         title: 'Дама с собачкой',
         materials: 'Акрил, бумага (50x80)',
         price: '16 500 руб',
-        image: '/assets/Франция/ladyWithDog.png'
+        image: '/assets/Франция/ladyWithDog.png',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const pictures = [
         title: 'Процедура',
         materials: 'Цветная литография (40x60)',
         price: '20 000 руб',
-        image: '/assets/Франция/procedure.png'
+        image: '/assets/Франция/procedure.png',
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ export const pictures = [
         title: 'Птичья трапеза',
         materials: 'Цветная литография (40x60)',
         price: '22 500 руб',
-        image: '/assets/Франция/birdMeal.png'
+        image: '/assets/Франция/birdMeal.png',
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const pictures = [
         title: 'Пейзаж с рыбой',
         materials: 'Цветная литография (40x60)',
         price: '22 500 руб',
-        image: '/assets/Франция/landscapeWithFish.png'
+        image: '/assets/Франция/landscapeWithFish.png',
     },
       
     {
@@ -61,7 +61,7 @@ export const pictures = [
         title: 'Над городом',
         materials: 'Цветная литография (40х60)',
         price: '16 000 руб',
-        image: '/assets/Германия/aboveTheCity.png'
+        image: '/assets/Германия/aboveTheCity.png',
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ export const pictures = [
         title: 'Птенцы',
         materials: 'Холст, масло (50х80)',
         price: '14 500 руб',
-        image: '/assets/Германия/chicks.png'
+        image: '/assets/Германия/chicks.png',
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ export const pictures = [
         title: 'Среди листьев',
         materials: 'Цветная литография (40х60)',
         price: '20 000 руб',
-        image: '/assets/Германия/amongTheLeaves.png'
+        image: '/assets/Германия/amongTheLeaves.png',
     },
     {
         id: 10,
@@ -88,7 +88,7 @@ export const pictures = [
         title: 'Яркая птица',
         materials: 'Цветная литография (40х60)',
         price: '13 000 руб',
-        image: '/assets/Германия/brightBird.png'
+        image: '/assets/Германия/brightBird.png',
     },
     {
         id: 11,
@@ -97,7 +97,7 @@ export const pictures = [
         title: 'Дятлы',
         materials: 'Бумага, акрил (50х80)',
         price: '20 000 руб',
-        image: '/assets/Германия/woodpeckers.png'
+        image: '/assets/Германия/woodpeckers.png',
     },
     {
         id: 12,
@@ -106,7 +106,7 @@ export const pictures = [
         title: 'Большие воды',
         materials: 'Бумага, акрил (50х80)',
         price: '23 000 руб',
-        image: '/assets/Германия/bigWaters.png'
+        image: '/assets/Германия/bigWaters.png',
     },
 
     {
@@ -116,7 +116,7 @@ export const pictures = [
         title: 'Дикий зверь',
         materials: 'Акварель, бумага (50х80)',
         price: '19 500 руб',
-        image: '/assets/Англия/wildBeast.png'
+        image: '/assets/Англия/wildBeast.png',
     },
     {
         id: 14,
@@ -125,7 +125,7 @@ export const pictures = [
         title: 'Скалистый берег',
         materials: 'Цветная литография (40х60)',
         price: '17 500 руб',
-        image: '/assets/Англия/rockyCoast.png'
+        image: '/assets/Англия/rockyCoast.png',
     },
     {
         id: 15,
@@ -134,7 +134,7 @@ export const pictures = [
         title: 'Река и горы',
         materials: 'Акварель, бумага (50х80)',
         price: '20 500 руб',
-        image: '/assets/Англия/riverAndMountains.png'
+        image: '/assets/Англия/riverAndMountains.png',
     },
     {
         id: 16,
@@ -143,7 +143,7 @@ export const pictures = [
         title: 'Белый попугай',
         materials: 'Цветная литография (40х60)',
         price: '15 500 руб',
-        image: '/assets/Англия/whiteParrot.png'
+        image: '/assets/Англия/whiteParrot.png',
     },
     {
         id: 17,
@@ -152,7 +152,7 @@ export const pictures = [
         title: 'Ночная рыба',
         materials: 'Бумага, акрил (50х80)',
         price: '12 500 руб',
-        image: '/assets/Англия/nightFish.png'
+        image: '/assets/Англия/nightFish.png',
     },
     {
         id: 18,
@@ -161,7 +161,7 @@ export const pictures = [
         title: 'Рыжий кот',
         materials: 'Цветная литография (40х60)',
         price: '21 500 руб',
-        image: '/assets/Англия/redCat.png'
+        image: '/assets/Англия/redCat.png',
     },
 ];
 

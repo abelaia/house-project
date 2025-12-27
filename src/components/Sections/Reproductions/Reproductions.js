@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Reproductions.module.scss'
+import styles from './Reproductions.module.scss';
 import Card from '../Card/Card';
 import { pictures, countries } from './constants.js';
 
