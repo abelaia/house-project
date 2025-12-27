@@ -22,7 +22,7 @@ function Footer() {
                 <div className={styles.columns}>
                     <div className={styles.column}>
                         <h4 className={styles.title}>Репродукции</h4>
-                        <ul className={styles.nav}>
+                        <ul className={styles.navigation}>
                             <li>Франция</li>
                             <li>Германия</li>
                             <li>Англия</li>
@@ -30,14 +30,14 @@ function Footer() {
                     </div>
                     <div className={styles.column}>
                         <h4 className={styles.title}>Новинки</h4>
-                        <ul className={styles.nav}>
+                        <ul className={styles.navigation}>
                             <li>2021</li>
                             <li>2020</li>
                         </ul>
                     </div>
                     <div className={styles.column}>
                         <h4 className={styles.title}>О нас</h4>
-                        <ul className={styles.nav}>
+                        <ul className={styles.navigation}>
                             <li>Художники</li>
                             <li>Менеджеры</li>
                         </ul>

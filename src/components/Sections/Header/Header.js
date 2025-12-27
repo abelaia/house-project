@@ -12,16 +12,18 @@ function Header() {
                      alt="Logo lnk.House"
                      className={styles.logo}
                 />
-                <ul className={styles.nav}>
-                    <li>Репродукции</li>
-                    <li>Новинки</li>
-                    <li>О нас</li>
+                <nav className={styles.navigation}>
+                    <ul className={styles.navList}>
+                        <li>Репродукции</li>
+                        <li>Новинки</li>
+                        <li>О нас</li>
+                    </ul>
                     <button className={styles.buttonBasket}>
                         <img src={basket}
-                             alt="Корзина"
+                            alt="Корзина"
                         />
                     </button>
-                </ul>
+                </nav>
             </div>                
         </header>
     );
