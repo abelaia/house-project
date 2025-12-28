@@ -83,7 +83,8 @@
         }
 
         .socialColumn {
-            margin-top: -24px;
+            margin-top: 24px;
+            align-self: flex-start;
 
             .socialNetworks {
                 display: flex;
