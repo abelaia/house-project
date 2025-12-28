@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './OurTeam.module.scss'
 import { brushes, team } from './constants.js'
+import styles from './OurTeam.module.scss'
 
 function OurTeam() {
     return (

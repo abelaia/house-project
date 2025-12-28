@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from './Reproductions.module.scss';
-import Card from '../Card/Card';
 import { pictures, countries } from './constants.js';
+import Card from '../Card/Card';
+import styles from './Reproductions.module.scss';
 
 function Reproductions() {
     const [activeCountry, setActiveCountry] = useState('Франция');
