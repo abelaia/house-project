@@ -1,11 +1,13 @@
+@import '../../../styles/vars.scss';
+
 .reproductions {
-    padding: 1rem 2rem;
+    padding: $main-padding;
     width: 100%;
     margin-bottom: 70px;
 
     .container {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: $container-max-width;
         width: 100%;
         align-items: center;
         margin-top: 0;
@@ -17,8 +19,8 @@
             margin-bottom: 30px;
 
             .title {
-                font-size: 40px;
-                color: #2C2D35;
+                font-size: $font-size-xl;
+                color: $color-text-primary;
             }
 
             .categories {
@@ -26,31 +28,31 @@
                 gap: 32px;
                 
                 .buttonCategories {
-                    font-size: 20px;
+                    font-size: $font-size-normal;
                     padding: 10px 20px;
-                    background-color: #D4E8D9;
-                    color: #2C2D35;
+                    background-color: $color-background-green;
+                    color: $color-background-dark;
                     border: none;
                     border-radius: 20px;
-                    border: 2px solid #D4E8D9;
+                    border: 2px solid $color-background-green;
                     transition: all 0.5s ease;
 
                     &:hover {
-                        background-color: #598D66;
-                        color: #F4F6F5;
+                        background-color: $color-primary;
+                        color: $color-text-white;
                         cursor: pointer;
                     }
 
                     &:active {
-                        background-color: #376B44;
-                        color: #2C2D35;
+                        background-color: $color-primary-dark;
+                        color: $color-background-dark;
                         cursor: pointer;
                     }
 
                     &:focus:not(:active) {
-                        background-color: #D4E8D9;
-                        color: #2C2D35;
-                        border: 2px solid #376B44;
+                        background-color: $color-background-green;
+                        color: $color-background-dark;
+                        border: 2px solid $color-primary-dark;
                     }
                 }
             }

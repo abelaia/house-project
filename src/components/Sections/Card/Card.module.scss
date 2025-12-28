@@ -1,6 +1,8 @@
+@import '../../../styles/vars.scss';
+
 .pictureCard {
     height: 730px;
-    background-color: #E1EDE6;
+    background-color: $color-background-light;
     padding: 20px 20px;
     
     .picture {
@@ -10,43 +12,43 @@
     }
 
     .author {
-        font-size: 18px;
-        color: #86928B;
+        font-size: $font-size-regular;
+        color: $color-text-secondary;
         margin-bottom: 10px;
     }
 
     .title {
-        font-size: 30px;
-        color: #2C2D35;
+        font-size: $font-size-large;
+        color: $color-text-primary;
         margin-bottom: 8px;
     }
 
     .materials {
-        font-size: 18px;
-        color: #2C2D35;
+        font-size: $font-size-regular;
+        color: $color-text-primary;
         margin-bottom: 30px;
     }
 
     .price {
-        font-size: 24px;
-        color: #598D66;
+        font-size: $font-size-medium;
+        color: $color-primary;
         margin-bottom: 20px;
     }
 
     .buttonBasket {
         background-color: transparent;
-        font-size: 20px;
-        color: #598D66;
+        font-size: $font-size-normal;
+        color: $color-primary;
         padding: 20px 0px;
-        border-color: #598D66;
+        border-color: $color-primary;
         border: 1px solid;
         width: 100%;
         margin-bottom: 30px;
         transition: all 500ms ease;
 
         &:hover {
-            background-color: #598D66;
-            color: #F4F6F5;
+            background-color: $color-primary;
+            color: $color-background-white;
             transform: scale(0.99);
             cursor: pointer;
         }

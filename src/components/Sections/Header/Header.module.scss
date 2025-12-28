@@ -1,17 +1,19 @@
+@import '../../../styles/vars.scss';
+
 .header {
-    padding: 1rem 2rem; 
-    background-color: #E1EDE6;
+    padding: $main-padding; 
+    background-color: $color-background-light;
     
     .container {
         display: flex;
         justify-content: space-between;
-        max-width: 1200px;
+        max-width: $container-max-width;
         margin: 0 auto;
         align-items: center;
 
         .logo {
-            font-size: 20px;
-            color: #598D66;
+            font-size: $font-size-normal;
+            color: $color-primary;
             transition: 0.3s ease;
             padding: 12px 12px;
             margin: 0px -12px;
@@ -29,16 +31,16 @@
                 display: flex;
                 list-style: none;
                 gap: 3rem;
-                color: #2C2D35;
+                color: $color-text-primary;
                 align-items: center;
 
                 li {
                     padding: 12px 12px;
                     margin: 0px -12px;
-                    font-size: 20px;
+                    font-size: $font-size-normal;
                     
                     &:hover {
-                        color: #598D66;
+                        color: $color-primary;
                         cursor: pointer;
                     }
                 }
@@ -56,10 +58,10 @@
                     height: 24px;
                     border: none;
                     outline: none;
-                    color: #2C2D35;
+                    color: $color-background-dark;
 
                     &:hover {
-                        color: #598D66;
+                        color: $color-primary;
                     }
                 }
             }

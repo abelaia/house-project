@@ -1,3 +1,5 @@
+@import '../../../styles/vars.scss';
+
 .news {
     position: relative;
     width: 100%;
@@ -15,7 +17,7 @@
 
     .container {
         position: relative;
-        max-width: 1440px;
+        max-width: 1400px;
         width: 100%;
         margin: 0 auto;
         align-items: center;
@@ -36,8 +38,8 @@
             }
 
             .title {
-                font-size: 40px;
-                color: #F4F6F5;
+                font-size: $font-size-xl;
+                color: $color-text-white;
                 max-width: 420px;
             }
         }
@@ -50,9 +52,9 @@
             max-width: 540px;
 
             .description {
-                font-size: 18px;
+                font-size: $font-size-regular;
                 line-height: 150%;
-                color: #FFFFFF;
+                color: $color-text-inverse;
 
                 &:last-child {
                     margin-bottom: 0;
@@ -61,9 +63,9 @@
         }
 
         .buttonLearn {
-            background-color: #EEDB6D;
-            font-size: 20px;
-            color: #2C2D35;
+            background-color: $color-background-yellow;
+            font-size: $font-size-normal;
+            color: $color-text-primary;
             padding: 20px 60px;
             top: 440px;
             left: 165px;
@@ -72,12 +74,12 @@
             position: absolute;
 
             &:hover {
-                background-color: #EEDF8B;
+                background-color: $color-background-yellow-light;
                 cursor: pointer;
             }
 
             &:focus {
-                background-color: #e3c935;
+                background-color: $color-background-yellow-dark;
                 cursor: pointer;
             }
         }
