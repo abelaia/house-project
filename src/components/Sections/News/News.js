@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './News.module.scss'
 
-const background = process.env.PUBLIC_URL + '/assets/background.png';
+const background = process.env.PUBLIC_URL + '/assets/background.jpg';
 const star = process.env.PUBLIC_URL + '/assets/star.svg';
 
 function News() {

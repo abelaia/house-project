@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { pictures, countries } from './constants.js';
 import Card from '../Card/Card';
 import styles from './Reproductions.module.scss';
@@ -6,8 +6,9 @@ import styles from './Reproductions.module.scss';
 function Reproductions() {
     const [activeCountry, setActiveCountry] = useState('Франция');
 
-    const filteredPictures = pictures.filter(
-        picture => picture.country === activeCountry
+    const filteredPictures = useMemo(() => 
+        pictures.filter(picture => picture.country === activeCountry),
+        [activeCountry]
     );
 
     return (

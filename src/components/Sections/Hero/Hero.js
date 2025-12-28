@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Hero.module.scss';
 
-const bird = process.env.PUBLIC_URL + '/assets/bird.png';
+const bird = process.env.PUBLIC_URL + '/assets/bird.jpg';
 
 function Hero() {
     return (

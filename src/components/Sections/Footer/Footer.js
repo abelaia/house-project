@@ -13,7 +13,7 @@ function Footer() {
                          className={styles.logo}
                     />
                     <a 
-                        href="+79995435454"
+                        href="number: +79995435454"
                         className={styles.number}
                     >
                         +7 (999) 543-54-54
