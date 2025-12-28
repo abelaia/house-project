@@ -1,62 +1,60 @@
-import React from 'react'
-import styles from './Footer.module.scss'
-
-export const logo = process.env.PUBLIC_URL + '/assets/logo.svg';
-export const facebook = process.env.PUBLIC_URL + '/assets/facebook.svg';
-export const inst = process.env.PUBLIC_URL + '/assets/inst.svg';
-export const youtube = process.env.PUBLIC_URL + '/assets/youtube.svg';
+import React from 'react';
+import styles from './Footer.module.scss';
+import { logo, footerColumns, socialNetworks } from './constants.js';
 
 function Footer() {
     return(
         <section className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.logoWithNumber}>
-                    <img src={logo}
+                    <img 
+                         src={logo}
                          alt="Logo lnk.House"
                          className={styles.logo}
                     />
-                    <p className={styles.number}>+7 (999) 543-54-54</p>
+                    <a 
+                        href="+79995435454"
+                        className={styles.number}
+                    >
+                        +7 (999) 543-54-54
+                    </a>
                     <p className={styles.address}>Мастерская</p>
                 </div>
 
                 <div className={styles.columns}>
-                    <div className={styles.column}>
-                        <h4 className={styles.title}>Репродукции</h4>
-                        <ul className={styles.navigation}>
-                            <li>Франция</li>
-                            <li>Германия</li>
-                            <li>Англия</li>
-                        </ul>
-                    </div>
-                    <div className={styles.column}>
-                        <h4 className={styles.title}>Новинки</h4>
-                        <ul className={styles.navigation}>
-                            <li>2021</li>
-                            <li>2020</li>
-                        </ul>
-                    </div>
-                    <div className={styles.column}>
-                        <h4 className={styles.title}>О нас</h4>
-                        <ul className={styles.navigation}>
-                            <li>Художники</li>
-                            <li>Менеджеры</li>
-                        </ul>
-                    </div>
+                    {footerColumns.map((column) => (
+                        <div className={styles.column}>
+                            <h4 className={styles.title}>
+                                {column.title}
+                            </h4>
+                            <ul className={styles.navigation}>
+                                {column.items.map((item, index) => (
+                                    <li 
+                                        key={index}
+                                        className={styles.navigationItem}
+                                    >
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
                 </div>
                 <div className={styles.socialColumn}>
                     <div className={styles.socialNetworks}>
-                        <img src={facebook}
-                             alt="facebook"
-                             className={styles.imgNetworks}
-                        />
-                        <img src={inst}
-                             alt="inst"
-                             className={styles.imgNetworks}
-                        />
-                        <img src={youtube}
-                             alt="youtube"
-                             className={styles.imgNetworks}
-                        />
+                        {socialNetworks.map((network, index) => (
+                            <a
+                                key={index}
+                                href={network.href}
+                                className={styles.socialLink}
+                            >
+                                <img 
+                                    src={network.src}
+                                    alt={network.alt}
+                                    className={styles.imgNetworks}
+                                />
+                            </a>
+                        ))}
                     </div>
                     <p className={styles.copyright}>Ink. House ®</p>
                     <p className={styles.copyright}>All rights reserved</p>

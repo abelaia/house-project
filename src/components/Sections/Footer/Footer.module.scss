@@ -28,11 +28,13 @@
             .number {
                 font-size: $font-size-regular;
                 color: $color-text-primary;
+                text-decoration: none;
                 cursor: pointer;
                 transition: all 0.2s ease;
                 padding: 8px 12px;
                 margin: -8px -12px;
                 margin-bottom: 0px;
+                display: block;
 
                 &:hover {
                     color: $color-primary;
@@ -65,7 +67,7 @@
                     font-size: $font-size-regular;
                     color: $color-text-secondary;
 
-                    li {
+                    .navigationItem {
                         margin-bottom: 6px;
                         cursor: pointer;
                         transition: all 0.2s ease;
@@ -87,15 +89,19 @@
                 display: flex;
                 gap: 30px;
 
-                .imgNetworks {
-                    width: 24px;
-                    height: 24px;
+                .socialLink {
                     padding: 12px 12px;
                     margin: -12px -12px;
-                    color: $color-text-primary;
-                    cursor: pointer;
-                    transition: all 0.2s ease;
+                    display: inline-block;
 
+                    .imgNetworks {
+                        width: 24px;
+                        height: 24px;
+                        color: $color-text-primary;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                    }
+                    
                     &:hover {
                         color: $color-primary;
                     }
