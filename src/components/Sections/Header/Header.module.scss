@@ -15,8 +15,7 @@
             font-size: $font-size-normal;
             color: $color-primary;
             transition: 0.3s ease;
-            padding: 12px 12px;
-            margin: 0px -12px;
+            padding: 16px 0px;
 
             &:hover {
                 cursor: pointer;
@@ -26,6 +25,8 @@
         .navigation {
             display: flex;
             gap: 3rem;
+            margin: 0;
+            padding: 0;
 
             .navList {
                 display: flex;
@@ -33,10 +34,11 @@
                 gap: 3rem;
                 color: $color-text-primary;
                 align-items: center;
+                margin: 0;
+                padding: 0;
 
                 li {
-                    padding: 12px 12px;
-                    margin: 0px -12px;
+                    padding: 16px 0px;
                     font-size: $font-size-normal;
                     
                     &:hover {
@@ -50,8 +52,7 @@
                 background: transparent;
                 border: none;
                 cursor: pointer;
-                padding: 12px 12px;
-                margin: 0px -12px;
+                padding: 16px 0px;
 
                 img {
                     width: 24px;
