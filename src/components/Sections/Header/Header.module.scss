@@ -6,16 +6,16 @@
     
     .container {
         display: flex;
+        align-items: center;
         justify-content: space-between;
         max-width: $container-max-width;
         margin: 0 auto;
-        align-items: center;
 
         .logo {
+            padding: 16px 0px;
             font-size: $font-size-normal;
             color: $color-primary;
             transition: 0.3s ease;
-            padding: 16px 0px;
 
             &:hover {
                 cursor: pointer;
@@ -30,12 +30,12 @@
 
             .navList {
                 display: flex;
-                list-style: none;
                 gap: 3rem;
-                color: $color-text-primary;
                 align-items: center;
                 margin: 0;
                 padding: 0;
+                list-style: none;
+                color: $color-text-primary;
 
                 li {
                     padding: 16px 0px;
@@ -49,10 +49,10 @@
             }
 
             .buttonBasket {
+                padding: 16px 0px;
                 background: transparent;
                 border: none;
                 cursor: pointer;
-                padding: 16px 0px;
 
                 img {
                     width: 24px;

@@ -5,14 +5,14 @@
     width: 100%;
 
     .container {
+        align-items: center;
         display: flex;
         gap: 2rem;
-        margin: 0 auto;
-        max-width: 1200px;
         width: 100%;
-        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
         margin-top: 0;
-        
+
         .bird {
             width: 540px;
             height: 620px;
@@ -23,8 +23,8 @@
 
             .title {
                 max-width: 540px;
-                font-size: $font-size-xxl;
                 margin-bottom: 20px;
+                font-size: $font-size-xxl;
                 line-height: 110%;
 
                 .highlight {
@@ -34,24 +34,24 @@
 
             .description {
                 max-width: 540px;
-                font-size: $font-size-regular;
-                color: $color-text-secondary;
-                line-height: 150%;
                 margin-bottom: 60px;
+                font-size: $font-size-regular;
+                line-height: 150%;
+                color: $color-text-secondary;
             }
 
             .buttonProducts {
-                background-color: transparent;
+                padding: 20px 60px;
                 font-size: $font-size-normal;
                 color: $color-primary;
-                padding: 20px 60px;
-                border-color: $color-primary;
+                background-color: transparent;
                 border: 1px solid;
+                border-color: $color-primary;
                 transition: all 0.5s ease;
 
                 &:hover {
-                    background-color: $color-primary;
                     color: $color-text-white;
+                    background-color: $color-primary;
                     transform: scale(0.99);
                     cursor: pointer;
                 }

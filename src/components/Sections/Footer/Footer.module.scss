@@ -6,10 +6,10 @@
 
     .container {
         display: flex;
-        justify-content: space-between;
         max-width: $container-max-width;
         margin: 0 auto;
         align-items: flex-start;
+        justify-content: space-between;
 
         .logoWithNumber {
             margin: 0;
@@ -30,14 +30,14 @@
             }
 
             .number {
-                font-size: $font-size-regular;
-                color: $color-text-primary;
-                text-decoration: none;
-                cursor: pointer;
-                transition: all 0.2s ease;
+                display: block;
                 padding: 16px 0px;
                 margin-bottom: 0px;
-                display: block;
+                font-size: $font-size-regular;
+                text-decoration: none;
+                color: $color-text-primary;
+                transition: all 0.2s ease;
+                cursor: pointer;
 
                 &:hover {
                     color: $color-primary;
@@ -45,10 +45,10 @@
             }
 
             .address {
-                font-size: $font-size-regular;
-                color: $color-text-secondary;
                 margin: 0;
                 padding: 0;
+                font-size: $font-size-regular;
+                color: $color-text-secondary;
             }
         }
 
@@ -64,18 +64,17 @@
                 }
                 
                 .navigation {
-                    list-style: none;
-                    padding: 0;
-                    font-size: $font-size-regular;
-                    color: $color-text-secondary;
                     margin: 0;
                     padding: 0;
+                    font-size: $font-size-regular;
+                    list-style: none;
+                    color: $color-text-secondary;
 
                     .navigationItem {
                         margin-bottom: 6px;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
                         padding: 12px 0px;
+                        transition: all 0.2s ease;
+                        cursor: pointer;
 
                         &:hover {
                             color: $color-primary;
@@ -86,8 +85,8 @@
         }
 
         .socialColumn {
-            margin-top: 24px;
             align-self: flex-start;
+            margin-top: 24px;
 
             .socialNetworks {
                 display: flex;
@@ -96,15 +95,15 @@
                 padding: 0;
 
                 .socialLink {
-                    padding: 18px 0px;
                     display: inline-block;
+                    padding: 18px 0px;
 
                     .imgNetworks {
                         width: 24px;
                         height: 24px;
                         color: $color-text-primary;
-                        cursor: pointer;
                         transition: all 0.2s ease;
+                        cursor: pointer;
                     }
                     
                     &:hover {
@@ -115,8 +114,8 @@
 
             .copyright {
                 font-size: $font-size-xs;
-                color: $color-text-secondary;
                 line-height: 120%;
+                color: $color-text-secondary;
 
                 &:first-child {
                     margin-bottom: 6px;

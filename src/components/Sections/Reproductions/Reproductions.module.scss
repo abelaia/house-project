@@ -6,10 +6,10 @@
     margin-bottom: 70px;
 
     .container {
-        margin: 0 auto;
-        max-width: $container-max-width;
-        width: 100%;
         align-items: center;
+        width: 100%;
+        max-width: $container-max-width;
+        margin: 0 auto;
         margin-top: 0;
 
         .textContainer {
@@ -28,30 +28,29 @@
                 gap: 32px;
                 
                 .buttonCategories {
-                    font-size: $font-size-normal;
                     padding: 10px 20px;
-                    background-color: $color-background-green;
+                    font-size: $font-size-normal;
                     color: $color-background-dark;
-                    border: none;
-                    border-radius: 20px;
+                    background-color: $color-background-green;
                     border: 2px solid $color-background-green;
+                    border-radius: 20px;
                     transition: all 0.5s ease;
 
                     &:hover {
-                        background-color: $color-primary;
                         color: $color-text-white;
+                        background-color: $color-primary;
                         cursor: pointer;
                     }
 
                     &:active {
-                        background-color: $color-primary-dark;
                         color: $color-background-dark;
+                        background-color: $color-primary-dark;
                         cursor: pointer;
                     }
 
                     &:focus:not(:active) {
-                        background-color: $color-background-green;
                         color: $color-background-dark;
+                        background-color: $color-background-green;
                         border: 2px solid $color-primary-dark;
                     }
                 }

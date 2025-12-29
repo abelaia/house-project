@@ -2,8 +2,8 @@
 
 .pictureCard {
     height: 730px;
-    background-color: $color-background-light;
     padding: 20px 20px;
+    background-color: $color-background-light;
     
     .picture {
         width: 310px;
@@ -12,43 +12,43 @@
     }
 
     .author {
+        margin-bottom: 10px;
         font-size: $font-size-regular;
         color: $color-text-secondary;
-        margin-bottom: 10px;
     }
 
     .title {
+        margin-bottom: 8px;
         font-size: $font-size-large;
         color: $color-text-primary;
-        margin-bottom: 8px;
     }
 
     .materials {
+        margin-bottom: 30px;
         font-size: $font-size-regular;
         color: $color-text-primary;
-        margin-bottom: 30px;
     }
 
     .price {
+        margin-bottom: 20px;
         font-size: $font-size-medium;
         color: $color-primary;
-        margin-bottom: 20px;
     }
 
     .buttonBasket {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px 0px;
         background-color: transparent;
         font-size: $font-size-normal;
         color: $color-primary;
-        padding: 20px 0px;
-        border-color: $color-primary;
         border: 1px solid;
-        width: 100%;
-        margin-bottom: 30px;
+        border-color: $color-primary;
         transition: all 500ms ease;
 
         &:hover {
-            background-color: $color-primary;
             color: $color-background-white;
+            background-color: $color-primary;
             transform: scale(0.99);
             cursor: pointer;
         }
